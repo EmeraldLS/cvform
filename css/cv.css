@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+     /* animation-name: gradientbackground;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-delay:2s;
+    background-size: 400% !important;  */
+    background-image: url(../img.jpg);
+     /* background-image: linear-gradient(45deg, #ffffe6, #fbffe6,#f1ffe6,#e6ffec); 
+    background-position: left;
+    min-height: 100vh; */
+}
+
+ @keyframes gradientbackground{
+    0%{
+    background-position:left
+    }
+    50%{
+        background-position: right;
+    }
+    100%{
+        background-position: left;
+    }
+} 
+
+#verification_code{
+    border-top:0px;
+    border-left: 0;
+    border-right: 0px;
+    border-bottom: 1px solid #494c50;
+    border-radius: 0px;
+}
+#verification_code::placeholder{
+    color: #55635d
+}
+#verification_code:focus{
+    box-shadow: 0px 0px 0px 0px;
+    border-bottom: 1px solid rgb(183, 185, 36);
+}
+#confirm_address:checked{
+    background-color: #f6fa25;
+}
+
+#sBtn{
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #000000;
+}
+.form-control::placeholder {
+    color:rgb(148, 148, 148) !important
+}

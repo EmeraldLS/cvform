@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    align-items: center;
+}
+.btn-part{
+    position: absolute;
+}
+.btn-part button{
+    border-radius: 20px !important;
+    margin: auto;
+}
+
+ul{
+    position: relative;
+    margin: 30px;
+    font-size: 1.2rem;
+}
+
+.linear-background{
+    background-image:linear-gradient(to right, #f78ef2, #3da123)
+}
+
+.error{
+    color: rgb(255, 0, 0);
+    padding: 10px 30px;
+    border: 2px dashed red;
+}
+.success{
+    color:rgb(0, 255, 0);
+    padding: 10px 30px;
+    border: 2px dashed green;
+}

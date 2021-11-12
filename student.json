@@ -1,0 +1,19 @@
+[
+    {
+        "first_name": "Lawrence",
+        "last_name" : "Öluwasegun",
+        "course_of_study" : "Computer Science",
+        "Age" : 18
+    },
+    {
+        "first_name" : "Shekere",
+        "last_name" : "Abideen",
+        "course_of_study" : "Computer Science",
+        "age" : 17
+    },
+    {
+        "first_name" : "Bidemi",
+        "last_name" : "Arike",
+        "course_of_study" : "Microbiology"
+    }
+]
